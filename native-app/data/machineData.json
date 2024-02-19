@@ -101,9 +101,9 @@
       "optimalRange": [85.0, 90.0]
     },
     "softwareVersion": {
-      "normalRange": ["v1.0", "v2.0"],
-      "abnormalRange": ["v2.1", "v3.0"],
-      "optimalRange": ["v1.0", "v2.0"]
+      "normalRange": [1.0, 2.0],
+      "abnormalRange": [2.1, 3.0],
+      "optimalRange": [1.0, 2.0]
     },
     "criteriaSettings": {
       "normalRange": [0, 1],

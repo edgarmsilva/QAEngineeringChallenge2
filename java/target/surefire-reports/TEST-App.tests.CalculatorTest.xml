@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="App.tests.CalculatorTest" time="211.05" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="App.tests.CalculatorTest" time="57.296" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\RED\AppData\Local\Temp\surefire18031158091160558124\surefirebooter-20240222114809467_3.jar C:\Users\RED\AppData\Local\Temp\surefire18031158091160558124 2024-02-22T11-48-08_051-jvmRun1 surefire-20240222114809467_1tmp surefire_0-20240222114809467_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\RED\AppData\Local\Temp\surefire3427244961000632181\surefirebooter-20240222171736778_3.jar C:\Users\RED\AppData\Local\Temp\surefire3427244961000632181 2024-02-22T17-17-36_019-jvmRun1 surefire-20240222171736778_1tmp surefire_0-20240222171736778_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Edgar\Estudos\RepositoriosGit\QAEngineeringChallenge2\java\target\test-classes;C:\Edgar\Estudos\RepositoriosGit\QAEngineeringChallenge2\java\target\classes;C:\Users\RED\.m2\repository\io\appium\java-client\9.1.0\java-client-9.1.0.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\RED\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\RED\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\RED\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\RED\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\RED\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\RED\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\RED\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\RED\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\RED\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\RED\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\RED\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\RED\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\RED\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RED\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\RED\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\RED\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\RED\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\RED\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RED\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\RED\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\RED\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\RED\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\RED\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RED\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\RED\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\RED\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\RED\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\plugins\maven-surefire-report-plugin\3.2.5\maven-surefire-report-plugin-3.2.5.jar;C:\Users\RED\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.2.5\surefire-report-parser-3.2.5.jar;C:\Users\RED\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.5\surefire-logger-api-3.2.5.jar;C:\Users\RED\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.12.0\doxia-sink-api-1.12.0.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.12.0\doxia-logging-api-1.12.0.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-core\1.12.0\doxia-core-1.12.0.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-container-default\2.1.0\plexus-container-default-2.1.0.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\RED\.m2\repository\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\RED\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\RED\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\RED\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\RED\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\RED\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RED\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\RED\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\RED\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\RED\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\RED\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\RED\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\RED\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\RED\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\RED\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\RED\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\RED\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\RED\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\RED\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\RED\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\RED\.m2\repository\org\codehaus\plexus\plexus-xml\3.0.0\plexus-xml-3.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\RED\AppData\Local\Temp\surefire18031158091160558124\surefirebooter-20240222114809467_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RED\AppData\Local\Temp\surefire3427244961000632181\surefirebooter-20240222171736778_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
@@ -61,55 +61,44 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="ValidateQualityControlStationScore" classname="App.tests.CalculatorTest" time="73.121">
-    <system-out><![CDATA[--------------------------------------------
-*** Machine: Quality Control Station
-Part: Software Version, Part Value: v2.0
-Part: Criteria Settings, Part Value: 1
-Part: Camera Calibration, Part Value: 1
-Part: Light Intensity, Part Value: 95.0
-Factory Health Score: 75.00
-Machine Health Score: 75.00
-*** TEST PASSED ***
-]]></system-out>
-  </testcase>
-  <testcase name="ValidatePaintingStationScore" classname="App.tests.CalculatorTest" time="40.0">
-    <system-out><![CDATA[--------------------------------------------
-*** Machine: PaintingStation
-Part: Flow Rate, Part Value: 11.0
-Part: Color Consistency, Part Value: 92.0
-Part: Nozzle Condition, Part Value: 0.5
-Part: Pressure, Part Value: 60.0
-Factory Health Score: 86.25
-Machine Health Score: 86.25
-*** TEST PASSED ***
-]]></system-out>
-  </testcase>
-  <testcase name="ValidateAssemblyLineScore" classname="App.tests.CalculatorTest" time="38.895">
-    <system-out><![CDATA[--------------------------------------------
-*** Machine: Assembly Line
-Part: Fitting Tolerance, Part Value: 0.05
-Part: Speed, Part Value: 10.0
-Part: Belt Speed, Part Value: 1.5
-Part: Alignment Accuracy, Part Value: 1.0
-Factory Health Score: 93.75
-Machine Health Score: 93.75
-*** TEST PASSED ***
-]]></system-out>
-  </testcase>
-  <testcase name="ValidateWeldingMachineScore" classname="App.tests.CalculatorTest" time="58.912">
+  <testcase name="ValidateWeldingMachineScore" classname="App.tests.CalculatorTest" time="57.236">
+    <error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [1237910e-8aae-44d5-ad69-7d21ab7f2d6c, findElement {value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text(&quot;Error Rate&quot;));, using=-android uiautomator}]&#10;Capabilities {appium:appActivity: com.machinehealth.app.MainA..., appium:appPackage: com.machinehealth.app, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.machinehealth.app.MainA..., appPackage: com.machinehealth.app, automationName: UIAutomator2, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 10, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 3036, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 1237910e-8aae-44d5-ad69-7d21ab7f2d6c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1237910e-8aae-44d5-ad69-7d21ab7f2d6c, findElement {value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("Error Rate"));, using=-android uiautomator}]
+Capabilities {appium:appActivity: com.machinehealth.app.MainA..., appium:appPackage: com.machinehealth.app, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.machinehealth.app.MainA..., appPackage: com.machinehealth.app, automationName: UIAutomator2, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 10, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 3036, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 1237910e-8aae-44d5-ad69-7d21ab7f2d6c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at App.Pages.LogPartPage.scrollToAnElementByText(LogPartPage.java:75)
+	at App.Pages.LogPartPage.selectPartName(LogPartPage.java:66)
+	at App.Pages.LogPartPage.logPart(LogPartPage.java:41)
+	at App.tests.CalculatorTest.ValidateWeldingMachineScore(CalculatorTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+]]></error>
     <system-out><![CDATA[--------------------------------------------
 *** Machine: Welding Robot
 Part: Arc Stability, Part Value: 95.0
 Part: Wire Feed Rate, Part Value: 10.0
 Part: Cooling Efficiency, Part Value: 90.00
-Part: Shielding Pressure, Part Value: 15.0
-Part: Seam Width, Part Value: 2.0
-Part: Vibration Level, Part Value: 5.0
-Part: Electrode Wear, Part Value: 1.0
-Factory Health Score: 100.00
-Machine Health Score: 100.00
-*** TEST PASSED ***
+Part: Error Rate, Part Value: 1.0
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -1,6 +1,5 @@
 package App.tests;
 
-import App.AppBasePage;
 import App.Enuns.AssemblyLine;
 import App.Enuns.PaintingStation;
 import App.Enuns.QualityControlStation;
@@ -53,6 +52,7 @@ public class CalculatorTest {
     public void ValidateWeldingMachineScore() {
         System.out.println("*** Machine: " + WeldingRobot.NAME.get());
         parts.put(WeldingRobot.VIBRATIONLEVEL.get(), "5.0");
+        parts.put(WeldingRobot.ERRORRATE.get(), "1.0");
         parts.put(WeldingRobot.ELECTRODEWEAR.get(), "1.0");
         parts.put(WeldingRobot.SHIELDINGPRESSURE.get(), "15.0");
         parts.put(WeldingRobot.WIREFEEDRATE.get(), "10.0");

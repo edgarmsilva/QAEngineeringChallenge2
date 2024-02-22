@@ -3,7 +3,7 @@ package App.Enuns;
 public enum WeldingRobot {
 
     NAME("Welding Robot"),
-    ERRORRATE(""),
+    ERRORRATE("Error Rate"),
     VIBRATIONLEVEL("Vibration Level"),
     ELECTRODEWEAR("Electrode Wear"),
     SHIELDINGPRESSURE("Shielding Pressure"),

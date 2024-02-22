@@ -1,14 +1,11 @@
 package App.Pages;
 
 import App.AppBasePage;
-import App.Enuns.WeldingRobot;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.sql.SQLOutput;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -41,7 +38,6 @@ public class HomePage extends AppBasePage {
     private WebElement txtMachineHealthScore;
 
     
-
     public void openLogPartScreen() {
         Assert.assertTrue(titleHomePage.isDisplayed());
         btnLogPart.click();
@@ -80,9 +76,6 @@ public class HomePage extends AppBasePage {
         appBasePage.takeScreenshot();
 
         System.out.println("*** TEST PASSED ***");
-
-
-
 
     }
 

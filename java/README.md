@@ -4,28 +4,12 @@ This is a mobile automation for the app MachineHealth application, it was made i
 
 ## System Requirements:
 
-- JDK 11
+- Java 11
 - Maven
 - Android Studio
+- Node.js
 - Appium
- 
-
-## Installation
-
-Follow these steps to set up the java automation for the mobile app:
-
-1. Navigate to the java project directory:
-
-   ```bash
-   cd java
-   ```
-
-2. Install maven dependencies:
-
-   ```bash
-   mvn clean install
-   ```
-
+- UiAutomator2 Driver
 
 ## Usage
 
@@ -82,10 +66,24 @@ You can now Close the Adnroid Studio Aplication.
 ![alt text](image-7.png)
 
 
-4. Then run the automation with the command:
-```bash
-    mvn clean test
-```
+## Follow these steps to set up the java automation for the mobile app:
+
+1. Navigate to the java project directory:
+
+   ```bash
+   cd java
+   ```
+
+2. Install maven dependencies and run the tests:
+
+   ```bash
+   mvn clean install
+   ```
+
+3. If you need to run the automation tests again, use the command below:
+    ```bash
+        mvn clean test
+    ```
 
 *   For each machine, a test of each machine will be executed, assuring that the final score is correct
 ![alt text](image-9.png)

@@ -87,7 +87,11 @@ You can now Close the Adnroid Studio Aplication.
     mvn clean test
 ```
 
-
-For each machine, a test of each machine will be executed, assuring that the final score is correct
-
+*   For each machine, a test of each machine will be executed, assuring that the final score is correct
 ![alt text](image-9.png)
+
+*   at the end of the execution an resume will be displayed:
+![alt text](image-11.png)
+
+*   a Evidence screenshot of the final screen for each test will be saved in the folder java > target > screenshots
+![alt text](image-12.png)

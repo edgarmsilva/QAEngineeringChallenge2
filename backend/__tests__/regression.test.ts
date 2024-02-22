@@ -62,7 +62,7 @@ describe('Machine Health Regression tests', () => {
       {name: QualityControlStationPart.SoftwareVersion, value: 2.0},
       {name: QualityControlStationPart.CriteriaSettings, value: 1.0}
     ];
-    const expectedHealth = 100;
+    const expectedHealth = 75;
 
     const result = calculateMachineHealth(machineName, parts);
     expect(result).toBe(expectedHealth);

@@ -1,0 +1,8 @@
+App\Pages\LogPartPage.class
+App\Enuns\AssemblyLine.class
+App\tests\CalculatorTest.class
+App\Pages\HomePage.class
+App\Enuns\QualityControlStation.class
+App\Enuns\WeldingRobot.class
+App\AppBasePage.class
+App\Enuns\PaintingStation.class

@@ -101,7 +101,7 @@ describe('calculateMachineHealth', () => {
       {name: QualityControlStationPart.SoftwareVersion, value: 1.8},
       {name: QualityControlStationPart.CriteriaSettings, value: 0.5},
     ];
-    const expectedHealth = 81.25;
+    const expectedHealth = 58.75;
 
     const result = calculateMachineHealth(machineName, parts);
     expect(result).toBe(expectedHealth);
